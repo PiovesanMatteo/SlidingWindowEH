@@ -14,7 +14,6 @@ private:
 public:
     BasicCount(float e, int n);
     ~BasicCount();
-    void printall();
     void insert(int value);
     int eval();
     int nbucket();
