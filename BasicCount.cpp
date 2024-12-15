@@ -35,7 +35,7 @@ BasicCount::~BasicCount() {
     delete start;
     delete stop;
     delete[] array_count;
-    delete[] array_last;*/
+    delete[] array_last;
 }
 void BasicCount::push(int exp, int value) {
     node* temp;
